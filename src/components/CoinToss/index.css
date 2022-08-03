@@ -1,0 +1,104 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coins-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  padding: 24px;
+  width: 80%;
+}
+
+.heading {
+  color: #a35200;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+
+.button {
+  background-color: #ffda6f;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+.image-container {
+  height: 150px;
+  width: 150px;
+}
+
+.counts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.count {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 16px;
+  margin-left: 16px;
+  font-weight: 500;
+}
+
+.description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .counts-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+  .coins-container {
+    max-width: 50%;
+    padding: 64px;
+  }
+  .heading {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  .image-container {
+    height: 250px;
+    width: 250px;
+  }
+  .button {
+    margin-top: 32px;
+  }
+  .description {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+}
